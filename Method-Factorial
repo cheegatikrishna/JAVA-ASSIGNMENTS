@@ -1,0 +1,36 @@
+import java.util.*;
+public class Factorial
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);//create Scanner class
+        Factorial ve=new Factorial();
+        int fa=6,n;
+        String a,b;
+        a="yes";
+        b="no";
+        n=sc.nextInt();
+        System.out.println(a);
+         System.out.println(b);
+        
+    }
+} 
+class factorial
+{
+  public static String fact(String a,String b)
+  {
+     Scanner sc=new Scanner(System.in);
+     int fa=6;
+     int n=sc.nextInt();
+     if(n==fa)
+     {
+          return a;
+         
+     }
+     else
+     {
+         return b;
+         
+     }
+}
+}
