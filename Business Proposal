@@ -1,0 +1,23 @@
+//code here
+import java.util.*;
+public class Assessment2
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a,b,c;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        float f=a*b*c/100;
+        float g=a+f;
+        float h=2/f;
+        float s=a+f-h;
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(h);
+        System.out.printf("%.2f",s);
+        
+        
+    }
+}
